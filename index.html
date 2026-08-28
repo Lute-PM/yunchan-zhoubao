@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>孕产康 · IoT 项目周报 2026/08/24–08/28</title>
+<title>孕产康 · IoT 项目周报 2026/08/24–08/28 (8 个项目)</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; color: #1a1a1a; background: #f2f1ed; line-height: 1.7; }
@@ -41,7 +41,8 @@
   .proj-card.ac-4 { border-left: 5px solid #24A87C; }
   .proj-card.ac-5 { border-left: 5px solid #C98A1C; }
   .proj-card.ac-6 { border-left: 5px solid #D4537E; }
-  .proj-card.ac-7 { border-left: 5px solid #0FA3A3; }
+  .proj-card.ac-7 { border-left: 5px solid #6B5B95; }
+  .proj-card.ac-8 { border-left: 5px solid #0FA3A3; }
 
   .proj-card-hd { display: flex; align-items: center; padding: 14px 20px; cursor: pointer; user-select: none; gap: 10px; transition: filter 0.1s; }
   .ac-1 .proj-card-hd { background: linear-gradient(135deg, #EBF4FD 0%, #E0EEFA 100%); }
@@ -50,7 +51,8 @@
   .ac-4 .proj-card-hd { background: linear-gradient(135deg, #EAFBF4 0%, #DEF5EC 100%); }
   .ac-5 .proj-card-hd { background: linear-gradient(135deg, #FEF8EB 0%, #FDF0D8 100%); }
   .ac-6 .proj-card-hd { background: linear-gradient(135deg, #FEF2F6 0%, #FCE8EE 100%); }
-  .ac-7 .proj-card-hd { background: linear-gradient(135deg, #E6F7F7 0%, #D6F0F0 100%); }
+  .ac-7 .proj-card-hd { background: linear-gradient(135deg, #F0EDF7 0%, #E8E2F2 100%); }
+  .ac-8 .proj-card-hd { background: linear-gradient(135deg, #E6F7F7 0%, #D6F0F0 100%); }
   .proj-card-hd:hover { filter: brightness(0.965); }
 
   .proj-name { font-size: 15px; font-weight: 800; flex: 1; letter-spacing: 0.2px; }
@@ -60,7 +62,8 @@
   .ac-4 .proj-name { color: #14785A; }
   .ac-5 .proj-name { color: #996612; }
   .ac-6 .proj-name { color: #A82D54; }
-  .ac-7 .proj-name { color: #0F7A7A; }
+  .ac-7 .proj-name { color: #4A3D6B; }
+  .ac-8 .proj-name { color: #0F7A7A; }
 
   .hd-badges { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
   .badge { display: inline-flex; align-items: center; font-size: 12px; font-weight: 700; padding: 4px 13px; border-radius: 20px; letter-spacing: 0.3px; white-space: nowrap; }
@@ -72,6 +75,7 @@
   .bd-wait   { background: #999; color: #fff; }
   .bd-ship   { background: #27805A; color: #fff; }
   .bd-risk   { background: #C53030; color: #fff; }
+  .bd-concept { background: #6B5B95; color: #fff; }
   .c-red     { color: #C53030; }
   .risk-box { margin-top: 12px; padding: 12px 14px; background: #FFF5F5; border: 1px solid #F5C6C6; border-left: 4px solid #C53030; border-radius: 8px; font-size: 13px; line-height: 1.7; }
   .risk-title { font-weight: 700; color: #C53030; font-size: 13px; }
@@ -127,27 +131,28 @@
 <div class="page">
 
   <!-- ══════════════════════════════════════════
-       本周周报：2026/8/24 – 8/28 (W35)
+       本周周报：2026/8/24 – 8/28 (W35)  ·  8 个项目
   ══════════════════════════════════════════ -->
   <div class="report-header">
     <div class="report-header-left">
       <div class="eyebrow">WEEKLY REPORT</div>
-      <h1>孕产康 · IoT 项目周报 <span>2026/08/24 – 08/28</span></h1>
+      <h1>孕产康 · IoT 项目周报 <span>2026/08/24 – 08/28</span> <span style="font-size:14px;color:#888;font-weight:500;margin-left:8px;">8 个项目</span></h1>
     </div>
     <div class="report-header-right">
       <strong>软件项目负责人：吴丹</strong><br>
-      共 7 个并行项目 &nbsp;·&nbsp; 0 个风险阻塞
+      共 8 个并行项目 &nbsp;·&nbsp; 2 个概念阶段 &nbsp;·&nbsp; 0 个风险阻塞
     </div>
   </div>
 
   <!-- 整体盘点 -->
   <div class="stat-row">
-    <div class="stat-pill"><span class="sp-num c-blue">7</span><span class="sp-label">并行项目</span></div>
+    <div class="stat-pill"><span class="sp-num c-blue">8</span><span class="sp-label">并行项目</span></div>
     <div class="stat-pill"><span class="sp-num c-blue">1</span><span class="sp-label">开发中</span></div>
-    <div class="stat-pill"><span class="sp-num c-amber">1</span><span class="sp-label">测试中</span></div>
-    <div class="stat-pill"><span class="sp-num c-purple">3</span><span class="sp-label">需求对接中</span></div>
+    <div class="stat-pill"><span class="sp-num c-amber">0</span><span class="sp-label">测试中</span></div>
+    <div class="stat-pill"><span class="sp-num c-purple">4</span><span class="sp-label">需求对接中</span></div>
     <div class="stat-pill"><span class="sp-num" style="color:#999;">1</span><span class="sp-label">待开发</span></div>
-    <div class="stat-pill"><span class="sp-num c-green">1</span><span class="sp-label">已交付</span></div>
+    <div class="stat-pill"><span class="sp-num" style="color:#6B5B95;">2</span><span class="sp-label">概念阶段</span></div>
+    <div class="stat-pill"><span class="sp-num c-green">0</span><span class="sp-label">已交付</span></div>
     <div class="stat-pill"><span class="sp-num" style="color:#C53030;">0</span><span class="sp-label">风险</span></div>
   </div>
 
@@ -161,7 +166,7 @@
         <div class="proj-card-hd" onclick="tog(this)">
           <span class="proj-name">盆底肌修复仪 Megg1 Pro</span>
           <div class="hd-badges">
-            <span class="badge bd-test">测试中</span>
+            <span class="badge bd-dev">开发中</span>
             <span class="chevron">&#9654;</span>
           </div>
         </div>
@@ -169,19 +174,19 @@
           <div class="meta-row">
             <div class="meta-item" style="flex:1.3;">
               <div class="mi-label">软件交付时间</div>
-              <div class="mi-value" style="color:#185FA5; font-size:14px;">EVT迭代优化2版本：<b>2026/7/27 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT bug修复版本：<b>2026/8/19 已交付</b></span></div>
+              <div class="mi-value" style="color:#185FA5; font-size:14px;">EVT迭代3版本：<br>· 功能部分：<b>计划 9/2 提测</b><br>· 游戏部分：<b>计划 10/15 交付</b></div>
             </div>
             <div class="meta-item">
               <div class="mi-label">软件整体状态</div>
               <div class="mi-value" style="color:#27805A;">正常</div>
             </div>
           </div>
-          <div class="prog-label">本周达成情况 — EVT迭代优化2版本（8月19日已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">测试中（按计划8月19日完成交付）</span></div>
+          <div class="prog-label">本周达成情况 — EVT迭代3版本</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>完成测试用例评审</td></tr>
-            <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-            <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
-            <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>测试中</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>功能UI已交付，游戏UI设计中</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>功能部分预计 8/28 提测、9/2 提测；游戏部分预计 9/30 提测、10/15 交付</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>功能部分测试用例预计 8/31 评审；游戏部分测试用例预计 9/7-11 评审</td></tr>
           </table>
           <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
         </div>
@@ -200,24 +205,24 @@
           <div class="meta-row">
             <div class="meta-item" style="flex:1.3;">
               <div class="mi-label">软件交付时间</div>
-              <div class="mi-value" style="color:#4B3CA8; font-size:14px;">送检版本：排期待确认、最晚9月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div>
+              <div class="mi-value" style="color:#4B3CA8; font-size:14px;">送检版本：排期待确认、最晚 9 月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div>
             </div>
             <div class="meta-item">
               <div class="mi-label">软件整体状态</div>
               <div class="mi-value" style="color:#27805A;">正常</div>
             </div>
           </div>
-          <div class="prog-label">本周达成情况 — 送检版本（排期待确认、最晚9月初）</div>
+          <div class="prog-label">本周达成情况 — 送检版本（排期待确认）</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>8/21 云端方案确认：因双方商务协议推进滞后，为保障送检进度，重启云端对接方案进行联调（排期待定，需评估供应商资源）</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-            <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>APP团队进行认证版本开发中</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>iOS/Android 联调包方案 RN 容器相关问题，IoT 云端配合对方完成云端接口联调</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
           </table>
           <div class="prog-label" style="margin-top:12px;">全面接入版本（排期待确认）</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>和供应商进行方案对齐</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>全面接入工作继续并行推进，目标 20 天内拿到对方蓝牙协议；整机标定 11 月交付全面接入版本，以确保跑通人体试验的最终样机</td></tr>
           </table>
           <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
         </div>
@@ -236,7 +241,7 @@
           <div class="meta-row">
             <div class="meta-item" style="flex:1.3;">
               <div class="mi-label">软件交付时间</div>
-              <div class="mi-value" style="color:#C44A1A; font-size:14px;">EVT优化需求版：<b>2026/7/4 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：<b>2026/8/14 已交付</b><br>EVT迭代优化2版本：排期待确认</span></div>
+              <div class="mi-value" style="color:#C44A1A; font-size:14px;">EVT优化需求版：<b>2026/7/4 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：2026/8/14 已交付<br>EVT迭代优化2版本：排期待确认</span></div>
             </div>
             <div class="meta-item">
               <div class="mi-label">软件整体状态</div>
@@ -245,7 +250,6 @@
           </div>
           <div class="prog-label">本周达成情况 — 用户体验版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT迭代优化2版本（排期待确认）</span></div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -277,7 +281,6 @@
           </div>
           <div class="prog-label">本周达成情况</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -292,7 +295,7 @@
         <div class="proj-card-hd" onclick="tog(this)">
           <span class="proj-name">腰腹按摩仪 Remom1</span>
           <div class="hd-badges">
-            <span class="badge bd-dev">开发中</span>
+            <span class="badge bd-req">需求对接中</span>
             <span class="chevron">&#9654;</span>
           </div>
         </div>
@@ -300,20 +303,19 @@
           <div class="meta-row">
             <div class="meta-item" style="flex:1.3;">
               <div class="mi-label">软件交付时间</div>
-              <div class="mi-value" style="color:#996612; font-size:14px;">EVT演示版本：<b>2026/7/14 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14</span></div>
+              <div class="mi-value" style="color:#996612; font-size:14px;">EVT演示版：<b>2026/7/14 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14（计划）</span></div>
             </div>
             <div class="meta-item">
               <div class="mi-label">软件整体状态</div>
               <div class="mi-value" style="color:#27805A;">正常</div>
             </div>
           </div>
-          <div class="prog-label">本周达成情况 — EVT一期需求版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT演示版本已于7月14日交付</span></div>
+          <div class="prog-label">本周达成情况 — EVT一期需求版本</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
-            <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8月21日完成交付</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
           </table>
           <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
         </div>
@@ -341,7 +343,6 @@
           </div>
           <div class="prog-label">本周达成情况</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>进行产品需求确认</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -351,12 +352,43 @@
         </div>
       </div>
 
-      <!-- P7: Megg2 -->
+      <!-- P7: 胎教仪 (新增) -->
       <div class="proj-card ac-7">
+        <div class="proj-card-hd" onclick="tog(this)">
+          <span class="proj-name">胎教仪</span>
+          <div class="hd-badges">
+            <span class="badge bd-concept">概念阶段</span>
+            <span class="chevron">&#9654;</span>
+          </div>
+        </div>
+        <div class="proj-card-body">
+          <div class="meta-row">
+            <div class="meta-item">
+              <div class="mi-label">软件交付时间</div>
+              <div class="mi-value tbd" style="font-size:14px;">TBD</div>
+            </div>
+            <div class="meta-item">
+              <div class="mi-label">软件整体状态</div>
+              <div class="mi-value" style="color:#27805A;">正常</div>
+            </div>
+          </div>
+          <div class="prog-label">本周达成情况 — 概念阶段</div>
+          <table class="prog-table">
+            <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
+            <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
+          </table>
+          <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
+        </div>
+      </div>
+
+      <!-- P8: Megg2 -->
+      <div class="proj-card ac-8">
         <div class="proj-card-hd" onclick="tog(this)">
           <span class="proj-name">Megg2</span>
           <div class="hd-badges">
-            <span class="badge bd-req">需求对接中</span>
+            <span class="badge bd-concept">概念阶段</span>
             <span class="chevron">&#9654;</span>
           </div>
         </div>
@@ -373,7 +405,6 @@
           </div>
           <div class="prog-label">本周达成情况 — 概念阶段（需求对接中）</div>
           <table class="prog-table">
-            <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
             <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -443,29 +474,28 @@
     <div class="past-report" id="past-w34">
       <div class="past-report-hd">
         <h2>2026 / 8.17 – 8.21 &nbsp;<span style="font-size:14px;font-weight:400;color:#aaa;">W34</span></h2>
-        <span class="pr-meta">软件项目负责人：吴丹 &nbsp;·&nbsp; 共 6 个并行项目 &nbsp;·&nbsp; 1 个风险阻塞</span>
+        <span class="pr-meta">软件项目负责人：吴丹 &nbsp;·&nbsp; 共 8 个并行项目 &nbsp;·&nbsp; 0 个风险阻塞</span>
       </div>
       <div class="stat-row" style="margin-bottom:24px;">
-        <div class="stat-pill"><span class="sp-num c-blue">6</span><span class="sp-label">并行项目</span></div>
+        <div class="stat-pill"><span class="sp-num c-blue">8</span><span class="sp-label">并行项目</span></div>
         <div class="stat-pill"><span class="sp-num c-blue">1</span><span class="sp-label">开发中</span></div>
         <div class="stat-pill"><span class="sp-num c-amber">1</span><span class="sp-label">测试中</span></div>
-        <div class="stat-pill"><span class="sp-num c-purple">1</span><span class="sp-label">需求对接中</span></div>
+        <div class="stat-pill"><span class="sp-num c-purple">2</span><span class="sp-label">需求对接中</span></div>
         <div class="stat-pill"><span class="sp-num" style="color:#999;">1</span><span class="sp-label">待开发</span></div>
         <div class="stat-pill"><span class="sp-num c-green">1</span><span class="sp-label">已交付</span></div>
-        <div class="stat-pill"><span class="sp-num" style="color:#C53030;">1</span><span class="sp-label">风险</span></div>
+        <div class="stat-pill"><span class="sp-num" style="color:#6B5B95;">2</span><span class="sp-label">概念阶段</span></div>
       </div>
       <div class="proj-grid">
         <div class="proj-card ac-1">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">盆底肌修复仪 Megg1 Pro</span><div class="hd-badges"><span class="badge bd-test">测试中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#185FA5;font-size:14px;">EVT迭代优化2版本：2026/7/27 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT bug修复版本：2026/8/25</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — EVT迭代优化2版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT bug修复版本（计划8月25日）</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#185FA5;font-size:14px;">EVT迭代3版本（功能部分计划 9/2 提测；游戏部分计划 10/15 交付）</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — EVT迭代3版本</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>开发修复bug中</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8月21日完成测试用例评审（修改），预计8月25日完成测试</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>游戏UI设计中</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>功能部分预计 8/28 提测、9/2 提测；游戏部分预计 9/30 提测、10/15 交付</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
@@ -473,33 +503,32 @@
         <div class="proj-card ac-2">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">盆底肌修复仪 Megg1 委外</span><div class="hd-badges"><span class="badge bd-wait">待开发</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#4B3CA8;font-size:14px;">送检版本：排期待确认、最晚9月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — 送检版本（排期待确认、最晚9月初）</div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#4B3CA8;font-size:14px;">送检版本：排期待确认、最晚 9 月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 送检版本（排期待确认）</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>8月18日方案确认完成，确定采用供应商不接入云端方案，由APP团队完成认证版本</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>商务协议推进滞后，为保障送检进度，重启云端对接方案进行联调（排期待定）</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>进行认证版本开发</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>iOS/Android 联调包进行云端接口联调</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
             </table>
             <div class="prog-label" style="margin-top:12px;">全面接入版本（排期待确认）</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>和供应商进行方案对齐</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>全面接入工作继续并行推进</td></tr>
             </table>
-            <div><span class="no-risk">8月18日方案已确认，风险解除</span></div>
+            <div><span class="no-risk">8/21 方案已确认，风险解除</span></div>
           </div>
         </div>
         <div class="proj-card ac-3">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">光疗坐垫 Lumi1</span><div class="hd-badges"><span class="badge bd-req">需求对接中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#C44A1A;font-size:14px;">EVT优化需求版：2026/7/4 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：2026/8/14 已交付</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — 用户体验版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT迭代优化1版本（排期待确认）</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#C44A1A;font-size:14px;">EVT优化需求版：<b>2026/7/4 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：2026/8/14 已交付</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 用户体验版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT迭代优化1版本（已交付）</span></div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>8月14日需求交付</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>8/14 需求交付</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8月14日完成测试</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8/14 完成测试</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
@@ -507,10 +536,9 @@
         <div class="proj-card ac-4">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">电疗坐垫 PluseCare1</span><div class="hd-badges"><span class="badge bd-ship">已交付</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#14785A;font-size:14px;">EVT bug修复版本：2026/7/28 已交付</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#14785A;font-size:14px;">EVT bug修复版本：<b>2026/7/28 已交付</b></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
             <div class="prog-label">本周达成情况</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -522,14 +550,13 @@
         <div class="proj-card ac-5">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">腰腹按摩仪 Remom1</span><div class="hd-badges"><span class="badge bd-dev">开发中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#996612;font-size:14px;">EVT演示版本：2026/7/14 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — EVT一期需求版本（计划8月14日）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT演示版本已于7月14日交付</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#996612;font-size:14px;">EVT演示版：<b>2026/7/14 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — EVT一期需求版本</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8月18日完成测试，预计8月21日交付</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8/18 完成测试，预计 8/21 交付</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
@@ -540,7 +567,6 @@
             <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
             <div class="prog-label">本周达成情况</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>进行产品需求确认</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -549,36 +575,62 @@
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
         </div>
+        <div class="proj-card ac-7">
+          <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">胎教仪</span><div class="hd-badges"><span class="badge bd-concept">概念阶段</span><span class="chevron">&#9654;</span></div></div>
+          <div class="proj-card-body">
+            <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 概念阶段</div>
+            <table class="prog-table">
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
+            </table>
+            <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
+          </div>
+        </div>
+        <div class="proj-card ac-8">
+          <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">Megg2</span><div class="hd-badges"><span class="badge bd-concept">概念阶段</span><span class="chevron">&#9654;</span></div></div>
+          <div class="proj-card-body">
+            <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 概念阶段</div>
+            <table class="prog-table">
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
+            </table>
+            <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!-- ═══ W33 往期内容（可展开） ═══ -->
+    </div>    <!-- ═══ W33 往期内容（可展开） ═══ -->
     <div class="past-report" id="past-w33">
       <div class="past-report-hd">
         <h2>2026 / 8.10 – 8.14 &nbsp;<span style="font-size:14px;font-weight:400;color:#aaa;">W33</span></h2>
-        <span class="pr-meta">软件项目负责人：吴丹 &nbsp;·&nbsp; 共 6 个并行项目 &nbsp;·&nbsp; 1 个风险阻塞</span>
+        <span class="pr-meta">软件项目负责人：吴丹 &nbsp;·&nbsp; 共 8 个并行项目 &nbsp;·&nbsp; 1 个风险阻塞</span>
       </div>
       <div class="stat-row" style="margin-bottom:24px;">
-        <div class="stat-pill"><span class="sp-num c-blue">6</span><span class="sp-label">并行项目</span></div>
+        <div class="stat-pill"><span class="sp-num c-blue">8</span><span class="sp-label">并行项目</span></div>
         <div class="stat-pill"><span class="sp-num c-blue">1</span><span class="sp-label">开发中</span></div>
         <div class="stat-pill"><span class="sp-num c-amber">1</span><span class="sp-label">测试中</span></div>
-        <div class="stat-pill"><span class="sp-num c-purple">1</span><span class="sp-label">需求对接中</span></div>
+        <div class="stat-pill"><span class="sp-num c-purple">2</span><span class="sp-label">需求对接中</span></div>
         <div class="stat-pill"><span class="sp-num" style="color:#999;">1</span><span class="sp-label">待开发</span></div>
         <div class="stat-pill"><span class="sp-num c-green">1</span><span class="sp-label">已交付</span></div>
+        <div class="stat-pill"><span class="sp-num" style="color:#6B5B95;">2</span><span class="sp-label">概念阶段</span></div>
         <div class="stat-pill"><span class="sp-num" style="color:#C53030;">1</span><span class="sp-label">风险</span></div>
       </div>
       <div class="proj-grid">
         <div class="proj-card ac-1">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">盆底肌修复仪 Megg1 Pro</span><div class="hd-badges"><span class="badge bd-test">测试中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#185FA5;font-size:14px;">EVT迭代优化2版本：2026/7/27 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT bug修复版本：2026/8/18</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — EVT迭代优化2版本（已交付）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT bug修复版本（计划8月18日）</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#185FA5;font-size:14px;">EVT迭代3版本（功能部分计划 9/2 提测；游戏部分计划 10/15 交付）</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — EVT迭代3版本</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>开发修复bug中</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>测试中</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>游戏UI设计中</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>功能部分预计 8/28 提测、9/2 提测；游戏部分预计 9/30 提测、10/15 交付</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
@@ -586,38 +638,39 @@
         <div class="proj-card ac-2">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">盆底肌修复仪 Megg1 委外</span><div class="hd-badges"><span class="badge bd-wait">待开发</span><span class="badge bd-risk">有风险</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#4B3CA8;font-size:14px;">送检版本：排期待确认、最晚9月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#4B3CA8;font-size:14px;">送检版本：排期待确认、最晚 9 月初<br><span style="font-size:12px;font-weight:500;color:#999;">全面接入版本：排期待确认</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
             <div class="risk-box">
               <div class="risk-title">【认证版本】存在调整技术对接方案的风险：</div>
-              <div class="risk-text">可能会采取供应商不接入云端，由APP团队来完成认证版本</div>
+              <div class="risk-text">可能会采取供应商不接入云端，由APP团队来完成认证版本。未确定方案并完成评估。</div>
               <div class="risk-title" style="margin-top:8px;">可能的风险点：</div>
-              <div class="risk-text">方案的变更可能导致10月无法满足提供送检版本的目标，需要等8月7日评估后定义是否可以满足条件</div>
+              <div class="risk-text">方案的变更可能导致10月无法满足提供送检版本的目标，需要等 8/7 评估后定义是否可以满足条件</div>
+              <div class="risk-title" style="margin-top:8px;">8/7：</div>
+              <div class="risk-text">和供应商进行对齐，明确后续送检和全面接入版本的实施计划</div>
             </div>
-            <div class="prog-label">本周达成情况 — 送检版本（排期待确认、最晚9月初）</div>
+            <div class="prog-label">本周达成情况 — 送检版本（排期待确认）</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/（供应商不接入云端方案，8月13日前完成技术方案确认）</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>商务协议推进同步；8/13 前完成技术方案确认（供应商不接入云端方案）</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>和供应商进行云端开发</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>iOS/Android 联调包进行云端接口联调</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
             </table>
             <div class="prog-label" style="margin-top:12px;">全面接入版本（排期待确认）</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>和供应商进行方案对齐</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>全面接入工作继续并行推进</td></tr>
             </table>
           </div>
         </div>
         <div class="proj-card ac-3">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">光疗坐垫 Lumi1</span><div class="hd-badges"><span class="badge bd-req">需求对接中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#C44A1A;font-size:14px;">EVT优化需求版：2026/7/4 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：排期待确认，预计最晚8月14日</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — 用户体验版本（排期待确认，预计最晚8月14日）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT优化需求版已于7月4日交付</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#C44A1A;font-size:14px;">EVT优化需求版：<b>2026/7/4 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT迭代优化1版本：排期待确认，最晚 8/14</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 用户体验版本</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>8月11日已需求澄清完成</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>8月11日已设计澄清完成</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>8月12日完成开发</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8月12日进入测试</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>8/11 需求澄清完成</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>8/11 设计澄清完成</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>8/12 完成开发</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>8/12 进入测试</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
           </div>
@@ -625,10 +678,9 @@
         <div class="proj-card ac-4">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">电疗坐垫 PluseCare1</span><div class="hd-badges"><span class="badge bd-ship">已交付</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#14785A;font-size:14px;">EVT bug修复版本：2026/7/28 已交付</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#14785A;font-size:14px;">EVT bug修复版本：<b>2026/7/28 已交付</b></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
             <div class="prog-label">本周达成情况</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
@@ -640,13 +692,12 @@
         <div class="proj-card ac-5">
           <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">腰腹按摩仪 Remom1</span><div class="hd-badges"><span class="badge bd-dev">开发中</span><span class="chevron">&#9654;</span></div></div>
           <div class="proj-card-body">
-            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#996612;font-size:14px;">EVT演示版本：2026/7/14 已交付<br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
-            <div class="prog-label">本周达成情况 — EVT一期需求版本（计划8月14日）<br><span style="font-weight:400;color:#aaa;font-size:11px;">EVT演示版本已于7月14日交付</span></div>
+            <div class="meta-row"><div class="meta-item" style="flex:1.3;"><div class="mi-label">软件交付时间</div><div class="mi-value" style="color:#996612;font-size:14px;">EVT演示版：<b>2026/7/14 已交付</b><br><span style="font-size:12px;font-weight:500;color:#999;">EVT一期需求：2026/8/14</span></div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — EVT一期需求版本</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>8月11日已提测</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>8/11 已提测</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>测试中</td></tr>
             </table>
             <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
@@ -658,8 +709,35 @@
             <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
             <div class="prog-label">本周达成情况</div>
             <table class="prog-table">
-              <tr><td class="role-cell"><span class="role-tag role-hw">整机</span></td><td>/</td></tr>
-              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>7月30日完成需求PRD</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>7/30 完成需求 PRD</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
+            </table>
+            <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
+          </div>
+        </div>
+        <div class="proj-card ac-7">
+          <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">胎教仪</span><div class="hd-badges"><span class="badge bd-concept">概念阶段</span><span class="chevron">&#9654;</span></div></div>
+          <div class="proj-card-body">
+            <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 概念阶段</div>
+            <table class="prog-table">
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
+              <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
+            </table>
+            <div><span class="no-risk">暂无阻塞点 / 核心风险 / 需要支持</span></div>
+          </div>
+        </div>
+        <div class="proj-card ac-8">
+          <div class="proj-card-hd" onclick="tog(this)"><span class="proj-name">Megg2</span><div class="hd-badges"><span class="badge bd-concept">概念阶段</span><span class="chevron">&#9654;</span></div></div>
+          <div class="proj-card-body">
+            <div class="meta-row"><div class="meta-item"><div class="mi-label">软件交付时间</div><div class="mi-value tbd" style="font-size:14px;">TBD</div></div><div class="meta-item"><div class="mi-label">软件整体状态</div><div class="mi-value" style="color:#27805A;">正常</div></div></div>
+            <div class="prog-label">本周达成情况 — 概念阶段</div>
+            <table class="prog-table">
+              <tr><td class="role-cell"><span class="role-tag role-product">产品</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-design">设计</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-dev">开发</span></td><td>/</td></tr>
               <tr><td class="role-cell"><span class="role-tag role-test">测试</span></td><td>/</td></tr>
@@ -668,9 +746,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- ═══ W32 往期内容（可展开） ═══ -->
+    </div>    <!-- ═══ W32 往期内容（可展开） ═══ -->
     <div class="past-report" id="past-w32">
       <div class="past-report-hd">
         <h2>2026 / 8.3 – 8.7 &nbsp;<span style="font-size:14px;font-weight:400;color:#aaa;">W32</span></h2>
@@ -1742,7 +1818,7 @@
 
   </div><!-- /往期周报 section -->
 
-  <div class="footer">孕产康 IoT 项目周报 · 长期存档 · 最后更新于 2026/8/28</div>
+  <div class="footer">孕产康 IoT 项目周报 · 长期存档 · 最后更新于 2026/8/28 (基于 8/27 飞书表格 + 3 周历史)</div>
 </div>
 
 <script>
